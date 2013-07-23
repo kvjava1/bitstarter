@@ -61,15 +61,35 @@
    .order {
        padding: 2% 0%;
    }
-   .actions {
-       background-color: #343434;
-       padding: 3% 0%;
-   }
-      .video, .thermometer, .order, .social, .statistics {
+    .actions {
+        background-color: #343434;
+        padding: 3% 0%;
+    }
+    .video, .thermometer, .order, .social, .statistics {
+        text-align: center;
+    }
+    .statistics h3, .statistics p {
+        color: white;
+    }
+
+      /* marketing copy and footer */
+      .copy {
+          padding-top: 2.5%;
+          padding-bottom: 2.5%;
+          text-align: justify;
+      }
+      .asset {
+          padding: 2.5% 0%;
+      }
+      .footer {
+          color: #cccccc;
           text-align: center;
       }
-      .statistics h3, .statistics p {
-          color: white;
+      .footer p {
+          font-size: 11px;
+      }
+      .footer a {
+          color: #ccccff;
       }
   </style>
  </head>
@@ -169,8 +189,35 @@
           </div> <!-- stats/order/share -->
       </div> <!-- pitch row -->
 
+      <!-- marketing copy: row1 -->
+      <div class="row-fluid section1">
+          <div class="span5 offset1 asset">
+              <img class="img-polaroid" src="http://placehold.it/480x300">
+          </div>
+          <div class="span5 copy">
+              <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mollis ultricies lacus, sit amet pretium magna.
+                  Etiam a sapien convallis, placerat lacus at, posuere massa. Pellentesque id purus sed neque fermentum dictum.
+                  Donec gravida porttitor nunc eget ultrices. Curabitur dapibus eros in tortor tempus, vel suscipit turpis blandit.
+                  Sed tincidunt sit amet lorem sed eleifend. In mattis porta sollicitudin. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+          </div>
+      </div>
 
-
+      <!-- marketing copy: row2 -->
+      <div class="row-fluid section2">
+          <div class="span5 offset1 copy cpy-right">
+              <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mollis ultricies lacus, sit amet pretium magna.
+                  Etiam a sapien convallis, placerat lacus at, posuere massa. Pellentesque id purus sed neque fermentum dictum.
+                  Donec gravida porttitor nunc eget ultrices. Curabitur dapibus eros in tortor tempus, vel suscipit turpis blandit.
+                  Sed tincidunt sit amet lorem sed eleifend. In mattis porta sollicitudin. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+          </div>
+          <div class="span5 asset">
+              <img class="img-polaroid" src="http://placehold.it/480x300">
+          </div>
+      </div>
 
   </div>
  </body>
