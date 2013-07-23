@@ -8,11 +8,13 @@
      <link rel="stylesheet" type="text/css" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined.no-icons.min.css">
      <link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css">
      <link rel="stylesheet" type="text/css" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fsocial-buttons.css">
-
      <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic">
      <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800,300italic,400italic,600italic,700italic">
 
-  <style type="text/css">
+     <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fjquery.js"></script>
+     <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap.js"></script>
+
+     <style type="text/css">
   /* large desktop */
   @media (min-width: 980px) {
     body {
@@ -216,6 +218,33 @@
           </div>
           <div class="span5 asset">
               <img class="img-polaroid" src="http://placehold.it/480x300">
+          </div>
+      </div>
+
+      <!-- faq -->
+      <div class="row-fluid faq">
+          <div class="span10 offset1">
+              <h3>FAQ</h3>
+              <div class="accordian" id="accordian2">
+                  <!-- faq group 1 -->
+                  <div class="accordian-group">
+                      <div class="accordian-heading">
+                          <a class="accordian-toggle" data-toggle="collapse" data-parent="#accordian2" href="#collapseOne">What does FAQ stand for?</a>
+                      </div>
+                      <div id="collapseOne" class="accordian-body collapse">
+                          <div class="accordian-inner">Frequently Asked Question</div>
+                      </div>
+                  </div>
+                  <!-- faq group 2 -->
+                  <div class="accordian-group">
+                      <div class="accordian-heading">
+                          <a class="accordian-toggle" data-toggle="collapse" data-parent="#accordian2" href="#collapseTwo">What's a Frequently Asked Question?</a>
+                      </div>
+                      <div id="collapseTwo" class="accordian-body collapse">
+                          <div class="accordian-inner">A question which is commonly asked by users.</div>
+                      </div>
+                  </div>
+              </div>
           </div>
       </div>
 
