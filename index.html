@@ -5,7 +5,10 @@
   <meta charset="utf-8">
   <title>My First Bitstarter</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link type="text/css" rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined.no-icons.min.css">
+     <link rel="stylesheet" type="text/css" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined.no-icons.min.css">
+     <link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css">
+     <link rel="stylesheet" type="text/css" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fsocial-buttons.css">
+
      <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic">
      <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800,300italic,400italic,600italic,700italic">
 
@@ -118,6 +121,8 @@
           </div>
           <!-- stats/order/share -->
           <div class="span5 actions">
+
+              <!-- crowdfunding: stats -->
               <div class="span8 offset2">
                   <div class="statistics">
                       <!-- column1: # backers -->
@@ -141,6 +146,26 @@
 
                   </div> <!-- statistics -->
               </div>
+
+              <!-- crowdfunding: progress bar -->
+              <div class="span10 offset1">
+                  <div class="thermometer progress active">
+                      <div class="bar bar-success" style="width: 60%"></div>
+                      <div class="bar bar-warning" style="width: 40%"></div>
+                  </div>
+              </div>
+
+              <!-- crowdfunding: preorder button -->
+              <div class="span6 offset3 order">
+                  <button class="btn btn-success btn-large">Preorder</button>
+              </div>
+
+              <!-- crowdfunding: social buttons -->
+              <div class="span8 offset2 social">
+                  <button class="btn btn-twitter"><i class="icon-twitter"></i> | Twitter </button>
+                  <button class="btn btn-facebook"><i class="icon-facebook"></i> | Facebook </button>
+              </div>
+
           </div> <!-- stats/order/share -->
       </div> <!-- pitch row -->
 
