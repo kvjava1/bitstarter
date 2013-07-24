@@ -3,7 +3,7 @@
 <html lang="en">
  <head>
   <meta charset="utf-8">
-  <title>My First Bitstarter</title>
+  <title>what up gov?</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <link rel="stylesheet" type="text/css" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined.no-icons.min.css">
      <link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css">
@@ -101,9 +101,19 @@
     .description .product-name {
         font-weight: bold;
     }
-    .features ul {
-        list-style: none;
+    .features .icon-thumbs-up {
+        color: green;
     }
+    .features .icon-thumbs-down {
+        color: red;
+    }
+    .features .icon-mobile-phone {
+        font-size: 1.9em;
+    }
+    .features i {
+        padding-right: 1.5%;
+    }
+
   </style>
  </head>
  <body>
@@ -222,12 +232,12 @@
       <div class="row-fluid section2 features">
           <div class="span5 offset1 copy cpy-right">
               <h1>features</h1>
-              <ul>
-                  <li ><i class="icon-mobile-phone"></i> mobile, so you're in the know anytime, anywhere!</li>
-                  <li>contact info for your federal, state & local reps! ;)</li>
-                  <li>find out how your reps voted on recent issues & give them <i class="icon-thumbs-up"></i> or <i class="icon-thumbs-down"></i>!</li>
-                  <li></li>
-              </ul>
+              <div class="row-fluid"><i class="icon-mobile-phone"></i>mobile, so you're in the know anytime, anywhere!</div>
+              <div class="row-fluid"><i class="icon-envelope-alt"></i>contact info for your federal, state & local reps! ;)</div>
+              <div class="row-fluid"><i class="icon-legal"></i>find out how your reps voted & give them <i class="icon-thumbs-up"></i>or <i class="icon-thumbs-down"></i>!</div>
+              <div class="row-fluid"><i class="icon-envelope-alt"></i>find out upcoming issues to be voted on and give feedback!</div>
+              <div class="row-fluid"><i class="icon-money"></i>find out who's giving money to your rep! :O</div>
+              <div class="row-fluid"><i class="icon-group"></i>share what you find and juicy tidbits with your social network!</div>
           </div>
           <div class="span5 asset">
               <img class="img-polaroid" src="http://placehold.it/480x300">
